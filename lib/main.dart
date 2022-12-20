@@ -34,11 +34,10 @@ class _HomeState extends State<Home> {
     filter.addAll(countries);
 
     filter.retainWhere((countryone) {
-      return countryone.toLowerCase().contains(
-          "U".toLowerCase()); //you can add another filter conditions too
+      return countryone.toLowerCase().contains("U".toLowerCase());
     });
 
-    print(filter); //list of countries which contains 'U' on name //output:  [USA, UK, Uganda, Uruguay]
+    print(filter);
 
     return Scaffold(
         appBar: AppBar(
