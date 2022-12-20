@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
         appBar: AppBar(
-            title: Text("Filtrering i Flutter"),
+            title: const Text("Filtrering i Flutter"),
             backgroundColor: Colors.purple),
         body: Container(
           margin: EdgeInsets.all(10),
